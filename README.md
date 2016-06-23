@@ -27,7 +27,8 @@ The architecture and design of `wpantund` has been motivated by the
 following design goals (in no specific order):
 
  *  Portability across Unix-like operating systems (currently supports
-    Linux and OS X. BSD support should be fairly trivial to add)
+    Linux and OS X. BSD support should be fairly trivial to add.)
+    Windows is not currently supported but patches are welcome.
  *  Require few runtime dependencies (DBus, with boost needed when
     building)
  *  Single-threaded architecture, with heavy use of asynchronous I/O
